@@ -1,0 +1,881 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+
+}
+
+li {
+    list-style: none;
+}
+
+@font-face {
+    font-family: "Gayathri";
+    font-weight: 100;
+    src: url("../fonts/Gayathri-Thin.ttf");
+}
+
+@font-face {
+    font-family: "Gayathri";
+    font-weight: 400;
+    src: url("../fonts/Gayathri-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Gayathri";
+    font-weight: 700;
+    src: url("../fonts/Gayathri-Bold.ttf");
+}
+
+body {
+    background-color: #ffffff;
+    font-size: 25px;
+    font-family: "Gayathri", sans-serif;
+    color: #000000;
+    font-weight: 100;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1920px;
+
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1192px;
+
+}
+
+
+.pc {
+    display: block;
+}
+
+.sp {
+    display: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+a:hover {
+
+    color: antiquewhite;
+}
+
+img {
+    vertical-align: bottom;
+    max-width: 100%;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+/* main Content */
+.benner {
+    padding: 292px 0 200px;
+    background: url("../img/main_pc.png") no-repeat center/cover;
+    text-align: center;
+    width: 100%;
+}
+
+.benner .main-title {
+    padding: 8px 0 18px;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.benner .main-content {
+    line-height: 1.25;
+    padding: 20px 0 18px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* trending */
+
+.trending {
+
+    justify-content: center;
+}
+
+.trending .box {
+    margin: 0 auto;
+    width: 95%;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 0;
+    padding: 22px 48px;
+    font-size: 18px;
+    box-shadow: -1px 5px 17px 1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 5px 17px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 5px 17px 1px rgba(0, 0, 0, 0.75);
+
+}
+
+.trending .box .box-title {
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.trending .box .colo-2 {
+    width: 20%;
+}
+
+.trending .box .col-5 {
+    width: 70%;
+}
+
+.trending .box .col-3 {
+    width: 15%;
+}
+
+.trending .box li:last-child {
+    margin-right: 0px;
+}
+
+.trending .col h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.trending .col-2 h3 {
+    color: #4381F7;
+}
+
+.trending .col .col-3 a {
+    padding: 19px 16px;
+    background-color: #4381F7;
+    border-radius: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    justify-content: center;
+
+}
+
+.trending .col .box-content {
+    padding: 20px 0;
+}
+
+.trending .box {
+    margin-top: -100px;
+}
+
+
+
+
+
+
+/* discovery main Content */
+.d-benner {
+    padding: 292px 0 200px;
+    background: url("../img/discovery_pc.png") no-repeat center/cover;
+    text-align: center;
+    width: 100%;
+}
+
+.d-benner .main-title {
+    padding: 8px 0 18px;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.d-benner .main-content {
+    line-height: 1.25;
+    padding: 20px 0 18px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+
+
+/* News Header */
+.news {
+    color: #000000;
+    position: relative;
+}
+
+.n-header {
+    padding: 60px 0;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.n-header .d-flex {
+    align-items: center;
+
+}
+
+.n-header .logo {
+    width: 220px;
+}
+
+.n-header .nav li {
+    width: fit-content;
+    margin-right: 32px;
+    text-align: center;
+
+}
+
+.n-header .nav li:last-child {
+    margin-right: 0;
+
+}
+
+
+.n-header .nav a {
+    color: #0000005f;
+    font-weight: 700;
+}
+
+.n-header .nav a:hover {
+    transition: 1.2s;
+    color: #000000;
+}
+
+.n-header .nav .active {
+    color: #000000;
+}
+
+.n-header {
+    position: fixed;
+    padding-bottom: 50px;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+
+}
+
+.n-header .menu-icon {
+    display: none;
+}
+
+
+
+
+/* news Content */
+.n-benner {
+    margin-top: 157px;
+}
+
+.n-benner .main-img {
+    padding: 237px 0px 233px;
+    background: url("../img/news-main-pc.png") no-repeat center/cover;
+    text-align: center;
+    width: 55%;
+
+}
+
+.n-benner .main-img .main-title {
+    padding: 8px 0 18px;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.n-benner .main-img .main-content {
+    line-height: 1.25;
+    padding: 20px 0 18px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.n-benner .main-text {
+    width: 45%;
+    padding: 118px 10px;
+}
+
+.n-benner .main-text .main-title {
+    color: #000000;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.n-benner .main-text h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #4381F7;
+    padding: 40px 0 32px;
+}
+
+.n-benner .main-text .main-content {
+    line-height: 1.25;
+    padding: 20px 0 18px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+/* ipad */
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+
+    body {
+        font-size: 3.255vw;
+    }
+
+    .container {
+        max-width: 250vw;
+    }
+
+    .tbl {
+        display: block;
+    }
+
+
+
+    /* main Content */
+    .benner {
+        padding: 38.021vw 0 26.042vw;
+        background: url("../img/main_tbl.png") no-repeat center/cover;
+        text-align: center;
+        width: 100%;
+    }
+
+    .benner .main-title {
+        padding: 1.042vw 0 2.344vw;
+        color: #FFFFFF;
+        font-size: 6.51vw;
+        font-weight: 400;
+    }
+
+    .benner .main-content {
+        line-height: 1.25;
+        padding: 2.604vw 0 2.344vw;
+        color: #FFFFFF;
+        font-size: 3.255vw;
+        font-weight: 400;
+    }
+
+    /* trending */
+
+    .trending {
+
+        justify-content: center;
+    }
+
+    .trending .box {
+        margin: 0 auto;
+        width: 100%;
+        background-color: #FFFFFF;
+        color: #000000;
+        border: 0;
+        padding: 2.865vw 4.25vw;
+        font-size: 2.344vw;
+        box-shadow: -0.13vw 0.651vw 2.214vw 0.13vw rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: -0.13vw 0.651vw 2.214vw 0.13vw rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -0.13vw 0.651vw 2.214vw 0.13vw rgba(0, 0, 0, 0.75);
+    }
+
+    .trending .box .box-title {
+        margin-bottom: 3.255vw;
+        font-size: 3.906vw;
+        font-weight: 700;
+    }
+
+    .trending .box .colo-2 {
+        width: 25%;
+    }
+
+    .trending .box .col-5 {
+        width: 60%;
+    }
+
+    .trending .box .col-3 {
+        width: 25%;
+    }
+
+    .trending .box li:last-child {
+        margin-right: 0vw;
+    }
+
+    .trending .col h3 {
+        font-size: 2.604vw;
+        font-weight: 700;
+    }
+
+    .trending .col-2 h3 {
+        color: #4381F7;
+    }
+
+    .trending .col .col-3 a {
+        padding: 2.474vw 2.083vw;
+        background-color: #4381F7;
+        border-radius: 1.302vw;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: 700;
+        font-size: 2.604vw;
+        justify-content: center;
+
+    }
+
+    .trending .col .box-content {
+        padding: 2.604vw 0;
+    }
+
+    .trending .box {
+        margin-top: -13.021vw;
+    }
+
+
+
+
+    /* Discovery Content */
+    .d-benner {
+        padding: 38.021vw 0 21.042vw;
+        background: url("../img/discovery-tbl.png") no-repeat center/cover;
+        text-align: center;
+        width: 100%;
+    }
+
+    .d-benner .main-title {
+        padding: 1.042vw 0 2.344vw;
+        color: #FFFFFF;
+        font-size: 6.51vw;
+        font-weight: 400;
+    }
+
+    .d-benner .main-content {
+        line-height: 1.25;
+        padding: 2.604vw 0 1.214vw;
+        color: #FFFFFF;
+        font-size: 3.255vw;
+        font-weight: 400;
+    }
+
+
+    /* New Header */
+    .n-header {
+        padding: 4.813vw 0;
+        background-color: #ffffff;
+    }
+
+    .n-header .d-flex {
+        align-items: center;
+
+    }
+
+
+    .n-header .logo {
+        width: 28.646vw;
+    }
+
+    .n-header .nav li {
+        width: fit-content;
+        margin-right: 1.906vw;
+        text-align: center;
+    }
+
+    .n-header .nav li:last-child {
+        margin-right: 0;
+
+    }
+
+    .n-header .nav a {
+        color: #0000005f;
+        font-weight: 700;
+    }
+
+    .n-header .nav a:hover {
+        transition: 1.2s;
+        color: #000000;
+    }
+
+    .n-header .nav .active {
+        color: #000000;
+    }
+
+    .n-header {
+        position: fixed;
+        padding-bottom: 6.51vw;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    /* new Content */
+    .n-benner {
+        margin-top: 17.443vw;
+    }
+
+    .n-benner .main-img {
+        padding: 30.859vw 0vw 30.339vw;
+        background: url("../img/news-main-tbl.png") no-repeat center/cover;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .n-benner .main-img .main-title {
+        padding: 1.042vw 0 2.344vw;
+        color: #FFFFFF;
+        font-size: 6.51vw;
+        font-weight: 400;
+    }
+
+    .n-benner .main-img .main-content {
+        line-height: 1.25;
+        padding: 2.604vw 0 2.344vw;
+        color: #FFFFFF;
+        font-size: 3.255vw;
+        font-weight: 400;
+    }
+
+    .n-benner .main-text {
+        width: 100%;
+        padding: 15.365vw 1.302vw;
+    }
+
+    .n-benner .main-text .main-title {
+        color: #000000;
+        font-weight: 700;
+        font-size: 6.51vw;
+    }
+
+    .n-benner .main-text h2 {
+        font-size: 3.906vw;
+        font-weight: 700;
+        color: #4381F7;
+        padding: 5.208vw 0 4.167vw;
+    }
+
+    .n-benner .main-text .main-content {
+        line-height: 1.25;
+        padding: 2.604vw 0 2.344vw;
+        color: #000000;
+        font-size: 2.344vw;
+        font-weight: 100;
+    }
+
+}
+
+/* sp */
+@media screen and (max-width:767.9px) {
+    body {
+        font-size: 3.906vw;
+    }
+
+    .container {
+        max-width: 186.25vw;
+    }
+
+    .sp {
+        display: block;
+    }
+
+    /* main Content */
+    .benner {
+        padding: 45.625vw 0 31.25vw;
+        background: url("../img/main_sp.png") no-repeat center/cover;
+        text-align: center;
+        width: 100%;
+    }
+
+    .benner .main-title {
+        padding: 1.25vw 0 2.813vw;
+        color: #FFFFFF;
+        font-size: 7.813vw;
+        font-weight: 400;
+    }
+
+    .benner .main-content {
+        line-height: 1.25;
+        padding: 3.125vw 0 2.813vw;
+        color: #FFFFFF;
+        font-size: 2.906vw;
+        font-weight: 00;
+        width: 100%;
+    }
+
+    /* trending */
+
+    .trending {
+
+        justify-content: center;
+    }
+
+    .trending .box {
+        margin: 0 auto;
+        width: 100%;
+        background-color: #FFFFFF;
+        color: #000000;
+        border: 0;
+        padding: 3.438vw;
+        font-size: 2.813vw;
+        box-shadow: -0.156vw 0.781vw 2.656vw 0.156vw rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: -0.156vw 0.781vw 2.656vw 0.156vw rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -0.156vw 0.781vw 2.656vw 0.156vw rgba(0, 0, 0, 0.75);
+    }
+
+    .trending .box .box-title {
+        margin-bottom: 3.906vw;
+        font-size: 4.688vw;
+        font-weight: 700;
+    }
+
+    .trending .box .colo-2 {
+        width: 7%;
+    }
+
+    .trending .box .col-5 {
+        width: 58%;
+    }
+
+    .trending .box .col-3 {
+        width: 25%;
+    }
+
+    .trending .box li:last-child {
+        margin-right: 0vw;
+    }
+
+    .trending .col h3 {
+        font-size: 3.125vw;
+        font-weight: 700;
+    }
+
+    .trending .col-2 h3 {
+        color: #4381F7;
+    }
+
+    .trending .col .col-3 a {
+        padding: 2.969vw 2.5vw;
+        background-color: #4381F7;
+        border-radius: 1.563vw;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: 700;
+        font-size: 3.125vw;
+        justify-content: center;
+
+    }
+
+    .trending .col .box-content {
+        padding: 3.125vw 0;
+    }
+
+    .trending .box {
+        margin-top: -15.625vw;
+    }
+
+
+    /* discovery Content */
+    .d-benner {
+        padding: 45.625vw 0 23.25vw;
+        background: url("../img/discovery-sp.png") no-repeat center/cover;
+        text-align: center;
+        width: 100%;
+    }
+
+    .d-benner .main-title {
+        padding: 1.25vw 0 2.813vw;
+        color: #FFFFFF;
+        font-size: 7.813vw;
+        font-weight: 400;
+    }
+
+    .d-benner .main-content {
+        line-height: 1.25;
+        padding: 3.125vw 0 1.813vw;
+        color: #FFFFFF;
+        font-size: 2.906vw;
+        font-weight: 400;
+        width: 100%;
+    }
+
+
+
+    /*News Header */
+    .n-header {
+        padding: 3.375vw;
+        background-color: #FFFFFF;
+    }
+
+    .n-header .d-flex {
+        align-items: center;
+
+    }
+
+
+    .n-header .logo {
+        width: 50vw;
+    }
+
+    .n-header .nav {
+        position: absolute;
+        top: -80vw;
+        left: 0vw;
+        width: 100%;
+        padding: 10.206vw 0 3.41vw;
+        background-color: #fffffff6;
+        transition: all 0.5s ease;
+    }
+
+    .n-header .nav a {
+        color: #000000d0;
+        font-weight: 700;
+    }
+
+    .n-header .nav a:hover {
+        transition: 1.2s;
+        color: #000000;
+    }
+
+    .n-header .nav .active {
+        color: #000000;
+    }
+
+    .n-header {
+        position: fixed;
+        padding-bottom: 4.813vw;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+    }
+
+    .n-header .menu-icon {
+        display: block;
+    }
+
+    .n-header .nav.show {
+        top: 0;
+    }
+
+    .n-header .nav li {
+        width: 100%;
+        padding: 4vw 0;
+        margin-right: 0;
+        margin-bottom: 5.008vw;
+    }
+
+    .n-header .menu-icon {
+        width: 50px;
+        height: 50px;
+        background-color: transparent;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .n-header .menu-icon span {
+        width: 20px;
+        height: 4px;
+        background-color: #000000;
+        position: absolute;
+        border-radius: 25px;
+        transition: 0.5s;
+    }
+
+    .n-header .menu-icon span:nth-child(1) {
+        transform: translateY(-10px);
+        width: 25px;
+        right: 15px;
+    }
+
+    .n-header .menu-icon span:nth-child(2) {
+        transform: translateY(10px);
+        width: 25px;
+        right: 15px;
+    }
+
+    .n-header .menu-icon.active span:nth-child(3) {
+        transform: translateX(60px);
+        opacity: 0;
+
+    }
+
+    .n-header .menu-icon.active span:nth-child(1) {
+        transform: translateY(0) rotate(45deg);
+        width: 30px;
+        transition: 0.45s;
+
+    }
+
+    .n-header .menu-icon.active span:nth-child(2) {
+        transform: translateY(0) rotate(-45deg);
+        width: 30px;
+        transition: 0.75s;
+
+    }
+
+    /* news Content */
+    .n-benner {
+        margin-top: 24.531vw;
+    }
+
+    .n-benner .main-img {
+        padding: 37.031vw 0vw 36.406vw;
+        background: url("../img/news-main-sp.png") no-repeat center/cover;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .n-benner .main-img .main-title {
+        padding: 1.25vw 0 2.813vw;
+        color: #FFFFFF;
+        font-size: 7.813vw;
+        font-weight: 400;
+    }
+
+    .n-benner .main-img .main-content {
+        line-height: 1.25;
+        padding: 3.125vw 0 2.813vw;
+        color: #FFFFFF;
+        font-size: 3.906vw;
+        font-weight: 400;
+    }
+
+    .n-benner .main-text {
+        width: 100%;
+        padding: 18.438vw 1.563vw;
+    }
+
+    .n-benner .main-text .main-title {
+        color: #000000;
+        font-weight: 700;
+        font-size: 7.813vw;
+    }
+
+    .n-benner .main-text h2 {
+        font-size: 4.688vw;
+        font-weight: 700;
+        color: #4381F7;
+        padding: 6.25vw 0 5vw;
+    }
+
+    .n-benner .main-text .main-content {
+        line-height: 1.25;
+        padding: 3.125vw 0 2.813vw;
+        color: #000000;
+        font-size: 2.813vw;
+        font-weight: 100;
+    }
+}
