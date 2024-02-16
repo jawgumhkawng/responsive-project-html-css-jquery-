@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/slick.css">
+    <script src="js/library/jquery-3.7.1.min.js"></script>
+    <script src="js/library/slick.min.js"></script>
     <title>Main</title>
 </head>
 
@@ -15,11 +17,8 @@
     <div class="wrapper">
         <header class="header">
             <div class="container d-flex">
-                <h1 class="logo">
-                    <a href="#">
-                        <img src="img/logo1.png" alt="logo">
-                    </a>
-                </h1>
+                <h1 class="logo d-block"><a href="#"><img src="img/logo1.png" alt="logo"></a></h1>
+                <h1 class="logo d-none"><a href="#"><img src="img/logo2.png" alt="logo"></a></h1>
                 <nav class="nav">
                     <ul class="d-flex">
                         <li><a href="index.html" class="active">HOME</a></li>
@@ -27,27 +26,21 @@
                         <li><a href="news.html">WORLD NEWS</a></li>
                     </ul>
                 </nav>
-
-                <div class="menu-icon">
-                    <span> </span>
-                    <span> </span>
-                    <span> </span>
-                </div>
-
+                <div class="menu-icon"><span></span><span></span><span></span></div>
             </div>
-        </header><!--/.header-->
+        </header>
+        <!--/.header-->
         <section class="benner">
             <div class="container">
                 <div class="main">
                     <h1 class="main-title">BEST PLACES TO VISIT</h1>
-                    <h3 class="main-content">
-                        There are thousand of places to vist. <br class="pc">
-                        Here are a few places that you can visit once in your lifetime.
-                    </h3>
+                    <h3 class="main-content">There are thousand of places to vist. <br class="pc">Here are a few
+                        places that you can visit once in your lifetime. </h3>
                 </div>
             </div>
         </section>
-        <section class="trending">
+        <!--/.benner-->
+        <section class="more-new">
             <div class="container">
                 <div class="box">
                     <h2 class="box-title">More New</h2>
@@ -57,23 +50,61 @@
                         </li>
                         <li class="col-5">
                             <h3>How can you visit?</h3>
-                            <p class="box-content">In this part, you can read any interesting <br class="tbl"> news from
-                                the whole
-                                world.....</p>
+                            <p class="box-content">In this part,
+                                you can read any interesting <br class="tbl">news from the whole world.....</p>
                             <p class="box-icon">2 m ago</p>
                         </li>
-                        <li class="col-3">
-                            <a href="#">Learn More</a>
-                        </li>
+                        <li class="col-3"><a href="#">Learn More</a></li>
                     </ul>
                 </div>
                 <div class="slider"></div>
             </div>
-        </section><!--/.benner-->
+        </section>
+        <!--/.more-new-->
+        <section class="trending">
+            <div class="container">
+                <h2 class="trending-title">TRENDING</h2>
+                <div class="slider d-flex">
+                    <div class="card">
+                        <img src="img/image3.png" class="card-img" alt="silde img">
+                        <div class="card-content">
+                            <h3>The Railway</h3>
+                            <p>This railway is very famous for
+                                surrounded by beautiful <br class="pc">
+                                scenery.</p>
+                            <p class="view-more">view more</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/image1.png" class="card-img" alt="silde img">
+                        <div class="card-content">
+                            <h3>The Railway</h3>
+                            <p>This railway is very famous for
+                                surrounded by beautiful <br class="pc">
+                                scenery.</p>
+                            <p class="view-more">view more</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/image2.png" class="card-img" alt="silde img">
+                        <div class="card-content">
+                            <h3>The Railway</h3>
+                            <p>This railway is very famous for
+                                surrounded by beautiful <br class="pc">
+                                scenery.</p>
+                            <p class="view-more">view more</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--/.trending-->
+
     </div>
-    <script src="js/library/jquery-3.7.1.min.js"></script>
-    <script src="js/library/slick.min.js"></script>
+
     <script src="js/common.js"></script>
+    <script src="js/slick.js"></script>
 </body>
 
 </html>
