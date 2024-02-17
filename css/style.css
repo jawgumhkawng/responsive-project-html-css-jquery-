@@ -53,6 +53,10 @@ body {
     display: block;
 }
 
+.tbl {
+    display: none;
+}
+
 .sp {
     display: none;
 }
@@ -537,6 +541,8 @@ img {
         display: block;
     }
 
+
+
     .pc {
         display: none;
     }
@@ -819,7 +825,7 @@ img {
 
     .n-benner .main-text {
         width: 100%;
-        padding: 15.365vw 1.302vw;
+        padding: 12.365vw 1.302vw;
     }
 
     .n-benner .main-text .main-title {
@@ -843,6 +849,33 @@ img {
         font-weight: 100;
     }
 
+
+    .john-miller {
+        padding: 1.021vw 0;
+    }
+
+    .john-miller .container {
+        width: 100%;
+    }
+
+    .john-miller .img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .john-miller .tag {
+        padding: 0 1.115vw;
+    }
+
+    .john-miller .tag p {
+        font-weight: 700;
+        font-size: 2.104vw;
+        line-height: 1.2;
+        letter-spacing: 0.2px;
+
+    }
+
+
 }
 
 /* sp */
@@ -852,7 +885,12 @@ img {
     }
 
     .container {
+        width: 90%;
         max-width: 186.25vw;
+    }
+
+    .pc {
+        display: none;
     }
 
     .sp {
@@ -979,6 +1017,85 @@ img {
         width: 100%;
     }
 
+
+    .d-travelling {
+        padding: 9.375vw 0;
+    }
+
+    .d-travelling .col-4 {
+        width: 100%;
+    }
+
+    .d-travelling .col-4 h1 {
+        padding: 3.125vw 0;
+        font-weight: 700;
+        font-size: 5vw;
+        line-height: 1.3;
+        margin-bottom: 7.813vw;
+    }
+
+    .d-travelling .col-4 p {
+        line-height: 1.2;
+        font-weight: 700;
+        text-align: justify;
+        font-size: 2.969vw;
+    }
+
+    .d-travelling .col-8 {
+        width: 100%;
+    }
+
+
+    .d-travelling .col-8 .box {
+        margin-bottom: 4.688vw;
+        padding-right: 4.688vw;
+    }
+
+    .d-travelling .col-8 .john-miller {
+        padding: 3.125vw 0;
+        width: 40%;
+        align-items: center;
+    }
+
+    .d-travelling .col-8 .john-miller img {
+        margin-bottom: 1.563vw;
+        width: 5.276vw;
+    }
+
+    .d-travelling .col-8 .john-miller h2 {
+        color: #4381F7;
+        font-weight: 700;
+        font-size: 25pxs;
+    }
+
+    .d-travelling .col-8 p {
+        line-height: 1.4;
+        font-weight: 700;
+        text-align: justify;
+        font-size: 2.969vw;
+        padding: 3.125vw 0;
+    }
+
+    .d-travelling .col-8 .time-icon {
+        position: relative;
+        margin-left: 4.688vw;
+    }
+
+    .d-travelling .col-8 .time-icon::before {
+        position: absolute;
+        top: 43%;
+        left: -4.688vw;
+        width: 3.125vw;
+        height: 3.125vw;
+        background: url("../img/time-icon.png") no-repeat center/contain;
+        content: "";
+        transform: translateY(-50%);
+    }
+
+    .d-travelling .col-8 .video iframe {
+        width: 100%;
+        height: 100%;
+    }
 
 
     /*News Header */

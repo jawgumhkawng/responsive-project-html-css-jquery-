@@ -167,6 +167,11 @@
         background-color: transparent;
     }
 
+    .container {
+        width: 90%;
+        max-width: 186.25vw;
+    }
+
     .header .d-flex {
         align-items: center;
 
