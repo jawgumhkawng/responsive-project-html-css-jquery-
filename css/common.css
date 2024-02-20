@@ -235,11 +235,14 @@
 
     .footer .footer-form input {
         width: 75%;
+        padding: 1.563vw;
+        border: 0;
+        margin-bottom: 3.125vw;
     }
 
     .footer .footer-form form p::after {
         position: absolute;
-        top: 35%;
+        top: 28%;
         right: 16.156vw;
         width: 3.125vw;
         height: 3.125vw;
@@ -434,12 +437,19 @@
         width: 60%;
     }
 
+    .footer .footer-form input {
+        width: 95%;
+        padding: 1.563vw;
+        border: 0;
+        margin-bottom: 3.125vw;
+    }
+
     .footer .footer-form form p::after {
         position: absolute;
         top: 35%;
-        right: 60.156vw;
-        width: 3.125vw;
-        height: 3.125vw;
+        right: 4.156vw;
+        width: 4.125vw;
+        height: 4.125vw;
         background: url("../img/input-icon.png") no-repeat center/contain;
         content: "";
         transform: translateY(-50%);

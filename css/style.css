@@ -196,14 +196,14 @@ img {
 
 }
 
-.more-new .col .col-3 a:hover {
-    padding: 19px 16px 12px;
+/* .more-new .col .col-3 a:hover {
+
     border: 1px solid #4381F7;
     border-radius: 10px;
     color: #4381F7;
     background-color: #FFFFFF;
 
-}
+} */
 
 .more-new .col .box-content {
     padding: 20px 0;
@@ -571,14 +571,14 @@ img {
 
 }
 
-.n-benner .main-text a:hover {
+/* .n-benner .main-text a:hover {
     padding: 19px 16px 12px;
     border: 1px solid #4381F7;
     border-radius: 10px;
     color: #4381F7;
     background-color: #FFFFFF;
 
-}
+} */
 
 .john-miller {
     padding: 100px 0;
@@ -762,15 +762,14 @@ img {
 
     }
 
-    .more-new .col .col-3 a:hover {
+    /* .more-new .col .col-3 a:hover {
         padding: 2.969vw 2.5vw 1.875vw;
         border: 0.156vw solid #4381F7;
         border-radius: 1.563vw;
         color: #4381F7;
         background-color: #FFFFFF;
 
-    }
-
+    } */
     .more-new .col .box-content {
         padding: 2.604vw 0;
     }
@@ -1247,14 +1246,14 @@ img {
 
     }
 
-    .more-new .col .col-3 a:hover {
+    /* .more-new .col .col-3 a:hover {
         padding: 2.969vw 2.5vw 1.875vw;
         border: 0.156vw solid #4381F7;
         border-radius: 1.563vw;
         color: #4381F7;
         background-color: #FFFFFF;
 
-    }
+    } */
 
     .more-new .col .box-content {
         padding: 3.125vw 0;
@@ -1640,6 +1639,43 @@ img {
         color: #000000;
         font-size: 2.813vw;
         font-weight: 100;
+    }
+
+    .discovery {
+        padding: 3.125vw 0;
+    }
+    
+    .discovery .sec-tab {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 6.25vw 0;
+    }
+    
+    .discovery .sec-tab li {
+        margin-right: 3.125vw;
+    
+    }
+    
+    .discovery .sec-tab li a {
+        padding: 4.688vw 3.125vw 3.125vw;
+        text-align: center;
+        justify-content: center;
+        color: #000000;
+    
+    
+    }
+    
+    .discovery .sec-tab li a:hover {
+        background-color: #4381F7;
+        color: #FFFFFF;
+    }
+    
+    
+    .sec-tab-active,
+    .discovery .sec-tab li.sec-tab-active a {
+        background-color: #4381F7;
+        color: #FFFFFF;
     }
 
     .sec-tab-gp p {
