@@ -431,13 +431,13 @@
     }
 
     .footer .footer-form {
-        width: 50%;
+        width: 60%;
     }
 
     .footer .footer-form form p::after {
         position: absolute;
         top: 35%;
-        right: 10.156vw;
+        right: 60.156vw;
         width: 3.125vw;
         height: 3.125vw;
         background: url("../img/input-icon.png") no-repeat center/contain;
@@ -458,7 +458,7 @@
     }
 
     .footer .footer-icon {
-        width: 50%;
+        width: 40%;
     }
 
     .footer .footer-icon .icon div {

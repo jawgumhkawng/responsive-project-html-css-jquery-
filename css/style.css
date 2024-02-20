@@ -181,8 +181,10 @@ img {
     color: #4381F7;
 }
 
+
+
 .more-new .col .col-3 a {
-    padding: 19px 16px;
+    padding: 20px 16px 15px;
     background-color: #4381F7;
     border-radius: 10px;
     color: #FFFFFF;
@@ -190,6 +192,16 @@ img {
     font-weight: 700;
     font-size: 20px;
     justify-content: center;
+    margin: 30px 0;
+
+}
+
+.more-new .col .col-3 a:hover {
+    padding: 19px 16px 12px;
+    border: 1px solid #4381F7;
+    border-radius: 10px;
+    color: #4381F7;
+    background-color: #FFFFFF;
 
 }
 
@@ -217,7 +229,7 @@ img {
 .trending .slider .card {
     width: 336px;
     border-radius: 5px;
-    margin: 0 37px;
+    margin: 10px 37px;
     box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.68);
     -webkit-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.68);
     -moz-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.68);
@@ -274,15 +286,18 @@ img {
     font-weight: 700;
     color: #000000;
     padding: 20px 0;
-
-
-
-}
-
-.happening .tab a:hover {
-    border-bottom: 2px solid #4381F7;
     transition: all 0.9s ease;
+
+
+
 }
+
+.happening .tab li a:hover {
+    border-bottom: 2px solid #4381F7;
+
+}
+
+
 
 .happening .tab-gp {
     padding: 50px 0;
@@ -544,7 +559,7 @@ img {
 }
 
 .n-benner .main-text a {
-    padding: 19px 16px;
+    padding: 20px 16px 15px;
     background-color: #4381F7;
     border-radius: 10px;
     color: #FFFFFF;
@@ -553,6 +568,15 @@ img {
     font-size: 20px;
     justify-content: center;
     margin: 30px 0;
+
+}
+
+.n-benner .main-text a:hover {
+    padding: 19px 16px 12px;
+    border: 1px solid #4381F7;
+    border-radius: 10px;
+    color: #4381F7;
+    background-color: #FFFFFF;
 
 }
 
@@ -595,6 +619,38 @@ img {
     justify-content: start;
     align-items: center;
     padding: 40px 0;
+}
+
+.discovery .sec-tab li {
+    margin-right: 20px;
+
+}
+
+.discovery .sec-tab li a {
+    padding: 30px 20px 20px;
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+
+
+}
+
+.discovery .sec-tab li a:hover {
+    background-color: #4381F7;
+    color: #FFFFFF;
+}
+
+
+.sec-tab-active,
+.discovery .sec-tab li.sec-tab-active a {
+    background-color: #4381F7;
+    color: #FFFFFF;
+}
+
+.sec-tab-gp p {
+    font-weight: 400;
+    font-size: 20px;
+    padding: 50px 0;
 }
 
 /* ipad */
@@ -694,14 +750,24 @@ img {
     }
 
     .more-new .col .col-3 a {
-        padding: 2.474vw 2.083vw;
+        padding: 3.125vw 2.5vw 2.344vw;
         background-color: #4381F7;
-        border-radius: 1.302vw;
+        border-radius: 1.563vw;
         color: #FFFFFF;
-        text-align: center;
+        align-items: center;
         font-weight: 700;
-        font-size: 2.604vw;
+        font-size: 3.125vw;
         justify-content: center;
+        margin: 4.688vw 0;
+
+    }
+
+    .more-new .col .col-3 a:hover {
+        padding: 2.969vw 2.5vw 1.875vw;
+        border: 0.156vw solid #4381F7;
+        border-radius: 1.563vw;
+        color: #4381F7;
+        background-color: #FFFFFF;
 
     }
 
@@ -1019,6 +1085,49 @@ img {
 
     }
 
+    .discovery {
+        padding: 3.125vw 0;
+    }
+
+    .discovery .sec-tab {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 6.25vw 0;
+    }
+
+    .discovery .sec-tab li {
+        margin-right: 3.125vw;
+
+    }
+
+    .discovery .sec-tab li a {
+        padding: 3.688vw 3.125vw 2.125vw;
+        text-align: center;
+        justify-content: center;
+        color: #000000;
+
+
+    }
+
+    .discovery .sec-tab li a:hover {
+        background-color: #4381F7;
+        color: #FFFFFF;
+    }
+
+
+    .sec-tab-active,
+    .discovery .sec-tab li.sec-tab-active a {
+        background-color: #4381F7;
+        color: #FFFFFF;
+    }
+
+    .sec-tab-gp p {
+        font-weight: 400;
+        font-size: 3.125vw;
+        padding: 7.813vw 0;
+        text-align: justify;
+    }
 
 }
 
@@ -1104,7 +1213,7 @@ img {
     }
 
     .more-new .box .col-3 {
-        width: 25%;
+        width: 27%;
     }
 
     .more-new .box .col-3 a {
@@ -1126,14 +1235,24 @@ img {
     }
 
     .more-new .col .col-3 a {
-        padding: 2.969vw 2.5vw;
+        padding: 3.125vw 2.5vw 2.344vw;
         background-color: #4381F7;
         border-radius: 1.563vw;
         color: #FFFFFF;
-        text-align: center;
+        align-items: center;
         font-weight: 700;
         font-size: 3.125vw;
         justify-content: center;
+        margin: 4.688vw 0;
+
+    }
+
+    .more-new .col .col-3 a:hover {
+        padding: 2.969vw 2.5vw 1.875vw;
+        border: 0.156vw solid #4381F7;
+        border-radius: 1.563vw;
+        color: #4381F7;
+        background-color: #FFFFFF;
 
     }
 
@@ -1521,5 +1640,12 @@ img {
         color: #000000;
         font-size: 2.813vw;
         font-weight: 100;
+    }
+
+    .sec-tab-gp p {
+        font-weight: 400;
+        font-size: 3.125vw;
+        padding: 7.813vw 0;
+        text-align: justify;
     }
 }

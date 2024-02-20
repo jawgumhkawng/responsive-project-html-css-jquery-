@@ -13,3 +13,19 @@ $('#tab li').click(function(){
   $(activeTab).fadeIn();
   return false;
 });
+
+// Show the first sec-tab and hide the rest
+$('#sec-tab li:first-child').addClass('sec-tab-active');
+$('.sec-tab-gp').hide();
+$('.sec-tab-gp:first').show();
+
+// Click function
+$('#sec-tab li').click(function(){
+  $('#sec-tab li').removeClass('sec-tab-active');
+  $(this).addClass('sec-tab-active');
+  $('.sec-tab-gp').hide();
+  
+  var activeTab = $(this).find('a').attr('href');
+  $(activeTab).fadeIn();
+  return false;
+});
